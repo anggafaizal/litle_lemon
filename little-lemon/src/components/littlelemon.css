@@ -1,0 +1,375 @@
+nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 20px;
+    margin-left: 184px;
+  }
+  
+  .logo img {
+    width: 240px;
+    height: 65px;
+    margin-right: 150px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 61px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 500; 
+    font-size: 18px; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+
+
+
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #495E57; 
+    padding: 20px; 
+    
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .main-content h2,
+  .main-content h3,
+  .main-content p,
+  .main-content button {
+    margin: 0; 
+    margin-left: 184px; 
+    color: white; 
+    
+  }
+
+  .main-content p {
+    font-size: 20px; 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 400; 
+    color: #ffffff; 
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+  }
+  
+  .main-content h2 {
+    
+    font-size: 64px; 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 500; 
+    color: #F4CE14; 
+    
+  }
+  
+  .main-content h3 {
+   
+    font-size: 40px;
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 500; 
+    margin-bottom: 20px;
+  }
+  
+  .main-content button {
+    width: 257px; 
+    height: 63px;
+    color: black;
+    font-size:25px;
+    font-family: 'Karla', sans-serif;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  .main-image img {
+    width: 433px;
+    height: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+  
+  
+/*Special Section*/
+  
+.specials-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EDEFEE;
+    column-gap: -2rem;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .specials-section h2 {
+    margin-left: 184px;
+    margin-top: 80px;
+    font-size: 60px;
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: 500; 
+  }
+  
+  .specials-section button {
+    margin-top: 70px;
+    margin-left: 250px;
+    width: 257px; 
+    height: 63px;
+    color: black;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .article-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+ 
+  .article-header {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .article-header p{
+    color: #EE9972;
+    font-weight: 500; 
+    margin-right: 20px;
+  }
+  
+  .article-wrapper {
+    margin-left: 184px;
+    margin-right: -6rem;
+    padding: 0;
+    width: 300px;
+    background-color: #d6dad8;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .article-wrapper img {
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  
+  
+
+  /* TESTIMONIAL */
+
+  .testimonials-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #495E57;
+    padding: 20px;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 64px; 
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: bold; 
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    grid-column: 1 / -1; 
+  }
+  
+  .testimonial-card {
+    background-color: #EDEFEE;
+    margin-left: 184px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px; 
+    text-align: center; 
+  }
+  
+  .testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .ratings {
+    margin-top: 10px;
+  }
+  
+  .ratings span {
+    color: gold;
+  }
+  
+  .user-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  /*ABOUT*/
+
+  .about-section {
+    display: flex;
+    gap: 20px;
+    background-color: #EDEFEE;
+  }
+  
+  .about-section h2 {
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: medium;
+    font-size: 64px;
+    color: #F4CE14;
+    margin-left: 184px;
+  }
+  
+  .about-section h3 {
+    font-family: 'Markazi Text', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    margin-left: 184px;
+  }
+  
+  .about-section p {
+    font-family: 'Karla', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    margin-left: 184px;
+    line-height: 1.5;
+  }
+  
+  .about-images {
+    position: relative;
+    width: 369px; 
+  }
+  
+  .about-images figure {
+    position: absolute;
+  }
+  
+  .about-images img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 15px;
+  }
+  
+  .about-images figure:nth-child(1) {
+    left: 170px;
+    top: 50px;
+  }
+  
+  .about-images figure:nth-child(2) {
+    left: 10px; 
+    bottom: 90px; 
+  }
+  
+  
+  
+
+  /*FOOTER*/
+  footer {
+    background-color: #495E57;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.footer-copy{
+    font-family: 'Markazi Text', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    grid-column: 1 / -1; 
+}
+
+.footer-section figure img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 140px;
+}
+
+.footer-section h3 {
+    font-family: 'Markazi Text', sans-serif;
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 10px; /* Increased margin */
+    display: flex;
+    align-items: center;
+}
+
+.footer-section nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+}
+
+.footer-section nav ul li {
+    margin-bottom: 5px; /* Adjusted margin */
+}
+
+.footer-section article p {
+    margin-top: 0;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-media-icons img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  filter: invert(100%); /* Make the icons white */
+}
+
